@@ -28,3 +28,24 @@ header p {
     color: #94a3b8;
     font-size: 1.1rem;
 }
+
+main {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+section {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #1e293b;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
