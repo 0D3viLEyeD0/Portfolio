@@ -133,3 +133,12 @@ body.dark-mode .theme-btn:hover {
     background-color: #38bdf8;
     color: #0f172a;
 }
+
+.profile-img {
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
