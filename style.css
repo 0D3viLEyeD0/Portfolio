@@ -17,6 +17,7 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 4rem 1rem;
+    position: relative;
 }
 
 header h1 {
@@ -103,32 +104,32 @@ body.dark-mode section h2 {
 }
 
 .theme-btn {
-    background-color: #ffffff;
-    color: #1e293b;
-    border: 2px solid #e2e8f0;
-    padding: 0.6rem 1.2rem;
-    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #ffffff; 
+    border: 2px solid #ffffff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-family: inherit;
+    transition: all 0.2s ease;
 }
 
 .theme-btn:hover {
-    background-color: #f1f5f9;
-    transform: translateY(-1px);
+    background-color: #ffffff;
+    color: #1e293b;
 }
 
 body.dark-mode .theme-btn {
-    background-color: #334155;
-    color: #f8fafc;
-    border-color: #475569;
+    color: #38bdf8;
+    border-color: #38bdf8;
 }
 
 body.dark-mode .theme-btn:hover {
-    background-color: #475569;
+    background-color: #38bdf8;
+    color: #0f172a;
 }
