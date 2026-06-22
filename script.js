@@ -19,3 +19,17 @@ function typeWriter() {
 }
 
 window.onload = typeWriter;
+
+const themeBtn = document.getElementById('themeToggle');
+
+if (themeBtn) {
+    themeBtn.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        
+        if (document.body.classList.contains('dark-mode')) {
+            themeBtn.textContent = "Világos mód";
+        } else {
+            themeBtn.textContent = "Sötét mód";
+        }
+    });
+}

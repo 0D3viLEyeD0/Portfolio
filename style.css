@@ -87,3 +87,17 @@ section h2 {
     background-color: #2563eb;
     color: white;
 }
+
+body.dark-mode {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+body.dark-mode section {
+    background-color: #1e293b;
+    color: #f8fafc;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+body.dark-mode section h2 {
+    color: #38bdf8;
+    border-bottom-color: #334155;
+}
